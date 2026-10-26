@@ -1,0 +1,2 @@
+remote: HTTP Basic: Access denied
+fatal: Authentication failed for 'http://127.0.0.1/sre/ci/job-dsl-generator.git/'

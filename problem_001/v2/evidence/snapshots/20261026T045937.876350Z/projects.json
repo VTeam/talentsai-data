@@ -1,0 +1,13 @@
+{
+  "collected_at": "2026-10-26T04:59:37.881709Z",
+  "records": [
+    {
+      "id": 2,
+      "full_path": "sre/ci/job-dsl-generator",
+      "visibility_level": 0,
+      "default_branch": "main",
+      "head": "0fdc39ab383ebf15f7f81b1d9052ae62e3270d8a",
+      "repository_access_level": 20
+    }
+  ]
+}

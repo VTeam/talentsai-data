@@ -1,0 +1,26 @@
+{
+  "collected_at": "2026-10-26T04:59:29.149417Z",
+  "records": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "source_type": "Namespace",
+      "source_id": 2,
+      "access_level": 50
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "source_type": "Namespace",
+      "source_id": 3,
+      "access_level": 50
+    },
+    {
+      "id": 3,
+      "user_id": 1,
+      "source_type": "Namespace",
+      "source_id": 4,
+      "access_level": 50
+    }
+  ]
+}

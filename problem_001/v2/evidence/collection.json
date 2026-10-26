@@ -1,0 +1,11 @@
+{
+  "source": "isolated-reproduction",
+  "started_at": "2026-10-26T04:59:29.040729Z",
+  "product": "GitLab Community Edition",
+  "version": "14.5.2",
+  "revision": "76ceea558aa",
+  "package": "gitlab-ce 14.5.2-ce.0",
+  "clock": "all exported timestamps use the same instance UTC clock",
+  "redaction": "Credential values and Authorization payloads are redacted; identifiers, timestamps and state values are retained.",
+  "finished_at": "2026-10-26T04:59:47.651563Z"
+}

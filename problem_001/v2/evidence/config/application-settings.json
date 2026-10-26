@@ -1,0 +1,15 @@
+{
+  "collected_at": "2026-10-26T04:59:45.643298Z",
+  "settings": {
+    "password_authentication_enabled_for_git": true,
+    "password_authentication_enabled_for_web": true,
+    "require_two_factor_authentication": false,
+    "two_factor_grace_period": 48,
+    "signup_enabled": false
+  },
+  "authentication": {
+    "maximum_attempts": 10,
+    "unlock_in": "600",
+    "unlock_strategy": "both"
+  }
+}

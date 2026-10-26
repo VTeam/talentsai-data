@@ -1,0 +1,164 @@
+04:59:38.397063 http.c:756              == Info: Couldn't find host 127.0.0.1 in the (nil) file; using defaults
+04:59:38.397133 http.c:756              == Info:   Trying 127.0.0.1:80...
+04:59:38.397215 http.c:756              == Info: Connected to 127.0.0.1 (127.0.0.1) port 80 (#0)
+04:59:38.397248 http.c:703              => Send header, 0000000260 bytes (0x00000104)
+04:59:38.397253 http.c:715              => Send header: GET /sre/ci/job-dsl-generator.git/info/refs?service=git-upload-pack HTTP/1.1
+04:59:38.397256 http.c:715              => Send header: Host: 127.0.0.1
+04:59:38.397258 http.c:715              => Send header: User-Agent: git/2.33.1.gl1
+04:59:38.397260 http.c:715              => Send header: Accept: */*
+04:59:38.397262 http.c:715              => Send header: Accept-Encoding: deflate, gzip
+04:59:38.397264 http.c:715              => Send header: X-Request-ID:21d273125e3f7e8b86df62a6a0d6eff6
+04:59:38.397266 http.c:715              => Send header: Pragma: no-cache
+04:59:38.397267 http.c:715              => Send header: Git-Protocol: version=2
+04:59:38.397269 http.c:715              => Send header:
+04:59:38.418121 http.c:756              == Info: Mark bundle as not supporting multiuse
+04:59:38.418148 http.c:703              <= Recv header, 0000000027 bytes (0x0000001b)
+04:59:38.418153 http.c:715              <= Recv header: HTTP/1.1 401 Unauthorized
+04:59:38.418156 http.c:703              <= Recv header, 0000000015 bytes (0x0000000f)
+04:59:38.418158 http.c:715              <= Recv header: Server: nginx
+04:59:38.418161 http.c:703              <= Recv header, 0000000037 bytes (0x00000025)
+04:59:38.418163 http.c:715              <= Recv header: Date: Mon, 26 Oct 2026 04:59:38 GMT
+04:59:38.418166 http.c:703              <= Recv header, 0000000041 bytes (0x00000029)
+04:59:38.418168 http.c:715              <= Recv header: Content-Type: text/plain; charset=utf-8
+04:59:38.418172 http.c:703              <= Recv header, 0000000020 bytes (0x00000014)
+04:59:38.418174 http.c:715              <= Recv header: Content-Length: 26
+04:59:38.418177 http.c:703              <= Recv header, 0000000024 bytes (0x00000018)
+04:59:38.418179 http.c:715              <= Recv header: Connection: keep-alive
+04:59:38.418182 http.c:703              <= Recv header, 0000000025 bytes (0x00000019)
+04:59:38.418184 http.c:715              <= Recv header: Cache-Control: no-cache
+04:59:38.418186 http.c:703              <= Recv header, 0000000014 bytes (0x0000000e)
+04:59:38.418188 http.c:715              <= Recv header: Vary: Accept
+04:59:38.418191 http.c:703              <= Recv header, 0000000040 bytes (0x00000028)
+04:59:38.418193 http.c:715              <= Recv header: WWW-Authenticate: Basic realm="GitLab"
+04:59:38.418195 http.c:703              <= Recv header, 0000000033 bytes (0x00000021)
+04:59:38.418197 http.c:715              <= Recv header: X-Content-Type-Options: nosniff
+04:59:38.418200 http.c:703              <= Recv header, 0000000028 bytes (0x0000001c)
+04:59:38.418202 http.c:715              <= Recv header: X-Download-Options: noopen
+04:59:38.418204 http.c:703              <= Recv header, 0000000029 bytes (0x0000001d)
+04:59:38.418206 http.c:715              <= Recv header: X-Frame-Options: SAMEORIGIN
+04:59:38.418208 http.c:703              <= Recv header, 0000000041 bytes (0x00000029)
+04:59:38.418210 http.c:715              <= Recv header: X-Permitted-Cross-Domain-Policies: none
+04:59:38.418213 http.c:703              <= Recv header, 0000000042 bytes (0x0000002a)
+04:59:38.418215 http.c:715              <= Recv header: X-Request-Id: 01M5V9850XNZRYABHF3FNHVBZH
+04:59:38.418217 http.c:703              <= Recv header, 0000000021 bytes (0x00000015)
+04:59:38.418219 http.c:715              <= Recv header: X-Runtime: 0.018493
+04:59:38.418221 http.c:703              <= Recv header, 0000000033 bytes (0x00000021)
+04:59:38.418223 http.c:715              <= Recv header: X-Xss-Protection: 1; mode=block
+04:59:38.418226 http.c:703              <= Recv header, 0000000002 bytes (0x00000002)
+04:59:38.418228 http.c:715              <= Recv header:
+04:59:38.418238 http.c:756              == Info: Connection #0 to host 127.0.0.1 left intact
+04:59:38.555831 http.c:756              == Info: Found bundle for host 127.0.0.1: 0x5651340b8170 [serially]
+04:59:38.555876 http.c:756              == Info: Re-using existing connection! (#0) with host 127.0.0.1
+04:59:38.555886 http.c:756              == Info: Connected to 127.0.0.1 (127.0.0.1) port 80 (#0)
+04:59:38.555899 http.c:756              == Info: Server auth using Basic with user 'jenkins-operator2'
+04:59:38.555947 http.c:703              => Send header, 0000000335 bytes (0x0000014f)
+04:59:38.555956 http.c:715              => Send header: GET /sre/ci/job-dsl-generator.git/info/refs?service=git-upload-pack HTTP/1.1
+04:59:38.555958 http.c:715              => Send header: Host: 127.0.0.1
+04:59:38.555960 http.c:715              => Send header: Authorization: Basic [REDACTED]
+04:59:38.555963 http.c:715              => Send header: User-Agent: git/2.33.1.gl1
+04:59:38.555965 http.c:715              => Send header: Accept: */*
+04:59:38.555967 http.c:715              => Send header: Accept-Encoding: deflate, gzip
+04:59:38.555969 http.c:715              => Send header: X-Request-ID:21d273125e3f7e8b86df62a6a0d6eff6
+04:59:38.555971 http.c:715              => Send header: Pragma: no-cache
+04:59:38.555973 http.c:715              => Send header: Git-Protocol: version=2
+04:59:38.555975 http.c:715              => Send header:
+04:59:38.598615 http.c:756              == Info: Mark bundle as not supporting multiuse
+04:59:38.598643 http.c:703              <= Recv header, 0000000017 bytes (0x00000011)
+04:59:38.598648 http.c:715              <= Recv header: HTTP/1.1 200 OK
+04:59:38.598651 http.c:703              <= Recv header, 0000000015 bytes (0x0000000f)
+04:59:38.598654 http.c:715              <= Recv header: Server: nginx
+04:59:38.598656 http.c:703              <= Recv header, 0000000037 bytes (0x00000025)
+04:59:38.598659 http.c:715              <= Recv header: Date: Mon, 26 Oct 2026 04:59:38 GMT
+04:59:38.598662 http.c:703              <= Recv header, 0000000059 bytes (0x0000003b)
+04:59:38.598664 http.c:715              <= Recv header: Content-Type: application/x-git-upload-pack-advertisement
+04:59:38.598667 http.c:703              <= Recv header, 0000000021 bytes (0x00000015)
+04:59:38.598669 http.c:715              <= Recv header: Content-Length: 164
+04:59:38.598672 http.c:703              <= Recv header, 0000000024 bytes (0x00000018)
+04:59:38.598675 http.c:715              <= Recv header: Connection: keep-alive
+04:59:38.598679 http.c:703              <= Recv header, 0000000025 bytes (0x00000019)
+04:59:38.598682 http.c:715              <= Recv header: Cache-Control: no-cache
+04:59:38.598712 http.c:703              <= Recv header, 0000000024 bytes (0x00000018)
+04:59:38.598715 http.c:715              <= Recv header: Content-Encoding: gzip
+04:59:38.598718 http.c:703              <= Recv header, 0000000045 bytes (0x0000002d)
+04:59:38.598720 http.c:715              <= Recv header: Strict-Transport-Security: max-age=63072000
+04:59:38.598723 http.c:703              <= Recv header, 0000000050 bytes (0x00000032)
+04:59:38.598725 http.c:715              <= Recv header: Referrer-Policy: strict-origin-when-cross-origin
+04:59:38.598728 http.c:703              <= Recv header, 0000000002 bytes (0x00000002)
+04:59:38.598730 http.c:715              <= Recv header:
+04:59:38.598790 http.c:756              == Info: Connection #0 to host 127.0.0.1 left intact
+04:59:38.598955 http.c:756              == Info: Found bundle for host 127.0.0.1: 0x5651340b8170 [serially]
+04:59:38.598973 http.c:756              == Info: Re-using existing connection! (#0) with host 127.0.0.1
+04:59:38.598980 http.c:756              == Info: Connected to 127.0.0.1 (127.0.0.1) port 80 (#0)
+04:59:38.598990 http.c:756              == Info: Server auth using Basic with user 'jenkins-operator2'
+04:59:38.599029 http.c:703              => Send header, 0000000407 bytes (0x00000197)
+04:59:38.599035 http.c:715              => Send header: POST /sre/ci/job-dsl-generator.git/git-upload-pack HTTP/1.1
+04:59:38.599038 http.c:715              => Send header: Host: 127.0.0.1
+04:59:38.599050 http.c:715              => Send header: Authorization: Basic [REDACTED]
+04:59:38.599052 http.c:715              => Send header: User-Agent: git/2.33.1.gl1
+04:59:38.599055 http.c:715              => Send header: Accept-Encoding: deflate, gzip
+04:59:38.599058 http.c:715              => Send header: X-Request-ID:21d273125e3f7e8b86df62a6a0d6eff6
+04:59:38.599060 http.c:715              => Send header: Content-Type: application/x-git-upload-pack-request
+04:59:38.599063 http.c:715              => Send header: Accept: application/x-git-upload-pack-result
+04:59:38.599066 http.c:715              => Send header: Git-Protocol: version=2
+04:59:38.599069 http.c:715              => Send header: Content-Length: 179
+04:59:38.599072 http.c:715              => Send header:
+04:59:38.648439 http.c:756              == Info: Mark bundle as not supporting multiuse
+04:59:38.648476 http.c:703              <= Recv header, 0000000017 bytes (0x00000011)
+04:59:38.648482 http.c:715              <= Recv header: HTTP/1.1 200 OK
+04:59:38.648485 http.c:703              <= Recv header, 0000000015 bytes (0x0000000f)
+04:59:38.648487 http.c:715              <= Recv header: Server: nginx
+04:59:38.648489 http.c:703              <= Recv header, 0000000037 bytes (0x00000025)
+04:59:38.648492 http.c:715              <= Recv header: Date: Mon, 26 Oct 2026 04:59:38 GMT
+04:59:38.648494 http.c:703              <= Recv header, 0000000052 bytes (0x00000034)
+04:59:38.648497 http.c:715              <= Recv header: Content-Type: application/x-git-upload-pack-result
+04:59:38.648500 http.c:703              <= Recv header, 0000000021 bytes (0x00000015)
+04:59:38.648502 http.c:715              <= Recv header: Content-Length: 145
+04:59:38.648504 http.c:703              <= Recv header, 0000000024 bytes (0x00000018)
+04:59:38.648506 http.c:715              <= Recv header: Connection: keep-alive
+04:59:38.648509 http.c:703              <= Recv header, 0000000025 bytes (0x00000019)
+04:59:38.648511 http.c:715              <= Recv header: Cache-Control: no-cache
+04:59:38.648513 http.c:703              <= Recv header, 0000000045 bytes (0x0000002d)
+04:59:38.648515 http.c:715              <= Recv header: Strict-Transport-Security: max-age=63072000
+04:59:38.648517 http.c:703              <= Recv header, 0000000050 bytes (0x00000032)
+04:59:38.648519 http.c:715              <= Recv header: Referrer-Policy: strict-origin-when-cross-origin
+04:59:38.648521 http.c:703              <= Recv header, 0000000002 bytes (0x00000002)
+04:59:38.648523 http.c:715              <= Recv header:
+04:59:38.648543 http.c:756              == Info: Connection #0 to host 127.0.0.1 left intact
+04:59:38.649681 http.c:756              == Info: Found bundle for host 127.0.0.1: 0x5651340b8170 [serially]
+04:59:38.649710 http.c:756              == Info: Re-using existing connection! (#0) with host 127.0.0.1
+04:59:38.649719 http.c:756              == Info: Connected to 127.0.0.1 (127.0.0.1) port 80 (#0)
+04:59:38.649731 http.c:756              == Info: Server auth using Basic with user 'jenkins-operator2'
+04:59:38.649792 http.c:703              => Send header, 0000000407 bytes (0x00000197)
+04:59:38.649800 http.c:715              => Send header: POST /sre/ci/job-dsl-generator.git/git-upload-pack HTTP/1.1
+04:59:38.649803 http.c:715              => Send header: Host: 127.0.0.1
+04:59:38.649806 http.c:715              => Send header: Authorization: Basic [REDACTED]
+04:59:38.649809 http.c:715              => Send header: User-Agent: git/2.33.1.gl1
+04:59:38.649812 http.c:715              => Send header: Accept-Encoding: deflate, gzip
+04:59:38.649815 http.c:715              => Send header: X-Request-ID:21d273125e3f7e8b86df62a6a0d6eff6
+04:59:38.649819 http.c:715              => Send header: Content-Type: application/x-git-upload-pack-request
+04:59:38.649822 http.c:715              => Send header: Accept: application/x-git-upload-pack-result
+04:59:38.649824 http.c:715              => Send header: Git-Protocol: version=2
+04:59:38.649827 http.c:715              => Send header: Content-Length: 221
+04:59:38.649835 http.c:715              => Send header:
+04:59:38.698888 http.c:756              == Info: Mark bundle as not supporting multiuse
+04:59:38.698915 http.c:703              <= Recv header, 0000000017 bytes (0x00000011)
+04:59:38.698921 http.c:715              <= Recv header: HTTP/1.1 200 OK
+04:59:38.698924 http.c:703              <= Recv header, 0000000015 bytes (0x0000000f)
+04:59:38.698926 http.c:715              <= Recv header: Server: nginx
+04:59:38.698929 http.c:703              <= Recv header, 0000000037 bytes (0x00000025)
+04:59:38.698931 http.c:715              <= Recv header: Date: Mon, 26 Oct 2026 04:59:38 GMT
+04:59:38.698934 http.c:703              <= Recv header, 0000000052 bytes (0x00000034)
+04:59:38.698937 http.c:715              <= Recv header: Content-Type: application/x-git-upload-pack-result
+04:59:38.698940 http.c:703              <= Recv header, 0000000021 bytes (0x00000015)
+04:59:38.698942 http.c:715              <= Recv header: Content-Length: 328
+04:59:38.698944 http.c:703              <= Recv header, 0000000024 bytes (0x00000018)
+04:59:38.698947 http.c:715              <= Recv header: Connection: keep-alive
+04:59:38.698949 http.c:703              <= Recv header, 0000000025 bytes (0x00000019)
+04:59:38.698951 http.c:715              <= Recv header: Cache-Control: no-cache
+04:59:38.698953 http.c:703              <= Recv header, 0000000045 bytes (0x0000002d)
+04:59:38.698955 http.c:715              <= Recv header: Strict-Transport-Security: max-age=63072000
+04:59:38.698957 http.c:703              <= Recv header, 0000000050 bytes (0x00000032)
+04:59:38.698959 http.c:715              <= Recv header: Referrer-Policy: strict-origin-when-cross-origin
+04:59:38.698962 http.c:703              <= Recv header, 0000000002 bytes (0x00000002)
+04:59:38.698965 http.c:715              <= Recv header:
+04:59:38.698989 http.c:756              == Info: Connection #0 to host 127.0.0.1 left intact

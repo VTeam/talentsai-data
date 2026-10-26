@@ -1,5 +1,0 @@
-{
-  "repository": "http://127.0.0.1/sre/ci/job-dsl-generator.git",
-  "run_id": "3f9aa657f89b9bd7",
-  "observed_error": "remote: HTTP Basic: Access denied\nfatal: Authentication failed for 'http://127.0.0.1/sre/ci/job-dsl-generator.git/'"
-}

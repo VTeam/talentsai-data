@@ -1,3 +1,0 @@
-#!/bin/bash
-set -euo pipefail
-exec /opt/gitlab/embedded/bin/ruby /opt/ci/checkout.rb "$@"
